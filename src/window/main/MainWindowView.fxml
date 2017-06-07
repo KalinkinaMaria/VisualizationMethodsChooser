@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<BorderPane fx:controller="window.main.MainWindowController"
+            xmlns:fx="http://javafx.com/fxml" styleClass="root"
+            minWidth="800" minHeight="400">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Файл">
+                    <items>
+                        <MenuItem text="Создать" />
+                        <MenuItem text="Открыть" onAction="#openFile"/>
+                        <MenuItem text="Сохранить" />
+                        <MenuItem text="Сохранить как" />
+                        <SeparatorMenuItem />
+                        <MenuItem text="Выход" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <GridPane>
+            <TableView fx:id="dataTable"
+                       GridPane.columnIndex="0"
+                       GridPane.rowIndex="0"
+                       GridPane.columnSpan="1"
+                       GridPane.hgrow="ALWAYS"
+                       GridPane.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn text="Название" fx:id="nameDataColumn" minWidth="100"/>
+                    <TableColumn text="Тип данных" fx:id="dataTypeColumn" minWidth="100"/>
+                    <TableColumn text="Шкала" fx:id="scaleColumn" minWidth="100"/>
+                    <TableColumn text="Визуализировать" fx:id="isVisualizeColumn" minWidth="100"/>
+                </columns>
+            </TableView>
+        </GridPane>
+    </center>
+    <bottom>
+        <Button fx:id="buttonRun" onAction="#buttonRunClick">Найти метод</Button>
+    </bottom>
+</BorderPane>

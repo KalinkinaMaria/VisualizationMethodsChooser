@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_visualizationmethodschooser" default="compile.module.visualizationmethodschooser">
+  <dirname property="module.visualizationmethodschooser.basedir" file="${ant.file.module_visualizationmethodschooser}"/>
+  
+  <property name="module.jdk.home.visualizationmethodschooser" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.visualizationmethodschooser" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.visualizationmethodschooser" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.visualizationmethodschooser" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="visualizationmethodschooser.output.dir" value="${module.visualizationmethodschooser.basedir}/out/production/VisualizationMethodsChooser"/>
+  <property name="visualizationmethodschooser.testoutput.dir" value="${module.visualizationmethodschooser.basedir}/out/test/VisualizationMethodsChooser"/>
+  
+  <path id="visualizationmethodschooser.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="visualizationmethodschooser.module.production.classpath">
+    <path refid="${module.jdk.classpath.visualizationmethodschooser}"/>
+    <path refid="library.org.apache.commons:commons-csv:1.4.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi:2.0.0.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi-drools-engine:2.0.0.classpath"/>
+  </path>
+  
+  <path id="visualizationmethodschooser.runtime.production.module.classpath">
+    <pathelement location="${visualizationmethodschooser.output.dir}"/>
+    <path refid="library.org.apache.commons:commons-csv:1.4.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi:2.0.0.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi-drools-engine:2.0.0.classpath"/>
+  </path>
+  
+  <path id="visualizationmethodschooser.module.classpath">
+    <path refid="${module.jdk.classpath.visualizationmethodschooser}"/>
+    <pathelement location="${visualizationmethodschooser.output.dir}"/>
+    <path refid="library.org.apache.commons:commons-csv:1.4.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi:2.0.0.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi-drools-engine:2.0.0.classpath"/>
+  </path>
+  
+  <path id="visualizationmethodschooser.runtime.module.classpath">
+    <pathelement location="${visualizationmethodschooser.testoutput.dir}"/>
+    <pathelement location="${visualizationmethodschooser.output.dir}"/>
+    <path refid="library.org.apache.commons:commons-csv:1.4.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi:2.0.0.classpath"/>
+    <path refid="library.edu.stanford.swrl:swrlapi-drools-engine:2.0.0.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.visualizationmethodschooser">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.visualizationmethodschooser">
+    <patternset refid="excluded.from.module.visualizationmethodschooser"/>
+  </patternset>
+  
+  <path id="visualizationmethodschooser.module.sourcepath">
+    <dirset dir="${module.visualizationmethodschooser.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.visualizationmethodschooser" depends="compile.module.visualizationmethodschooser.production,compile.module.visualizationmethodschooser.tests" description="Compile module VisualizationMethodsChooser"/>
+  
+  <target name="compile.module.visualizationmethodschooser.production" depends="register.custom.compilers" description="Compile module VisualizationMethodsChooser; production classes">
+    <mkdir dir="${visualizationmethodschooser.output.dir}"/>
+    <javac2 destdir="${visualizationmethodschooser.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.visualizationmethodschooser}/javac">
+      <compilerarg line="${compiler.args.visualizationmethodschooser}"/>
+      <bootclasspath refid="visualizationmethodschooser.module.bootclasspath"/>
+      <classpath refid="visualizationmethodschooser.module.production.classpath"/>
+      <src refid="visualizationmethodschooser.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.visualizationmethodschooser"/>
+    </javac2>
+    
+    <copy todir="${visualizationmethodschooser.output.dir}">
+      <fileset dir="${module.visualizationmethodschooser.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.visualizationmethodschooser.tests" depends="register.custom.compilers,compile.module.visualizationmethodschooser.production" description="compile module VisualizationMethodsChooser; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.visualizationmethodschooser" description="cleanup module">
+    <delete dir="${visualizationmethodschooser.output.dir}"/>
+    <delete dir="${visualizationmethodschooser.testoutput.dir}"/>
+  </target>
+</project>

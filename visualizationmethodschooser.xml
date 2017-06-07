@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="visualizationmethodschooser" default="all">
+  
+  
+  <property file="visualizationmethodschooser.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.zip"/>
+    <include name="*.ear"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.edu.stanford.swrl:swrlapi-drools-engine:2.0.0.classpath">
+    <pathelement location="${basedir}/lib/antlr-runtime-3.5.jar"/>
+    <pathelement location="${basedir}/lib/aopalliance-1.0.jar"/>
+    <pathelement location="${basedir}/lib/axis-1.4_2.jar"/>
+    <pathelement location="${basedir}/lib/checker-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/checker-qual-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/commons-codec-1.9.jar"/>
+    <pathelement location="${basedir}/lib/commons-discovery-0.4_1.jar"/>
+    <pathelement location="${basedir}/lib/commons-io-2.4.jar"/>
+    <pathelement location="${basedir}/lib/commons-logging-1.2.jar"/>
+    <pathelement location="${basedir}/lib/drools-compiler-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/drools-core-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/drools-decisiontables-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/drools-osgi-integration-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/drools-reteoo-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/drools-templates-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/ecj-4.4.2.jar"/>
+    <pathelement location="${basedir}/lib/guava-18.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-4.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-assistedinject-4.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-multibindings-4.0.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.5.1.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-cache-4.5.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.4.3.jar"/>
+    <pathelement location="${basedir}/lib/jackson-annotations-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jackson-core-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jackson-databind-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jama-1.0.3.jar"/>
+    <pathelement location="${basedir}/lib/javax.inject-1.jar"/>
+    <pathelement location="${basedir}/lib/jbpm-flow-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/jcl-over-slf4j-1.7.7.jar"/>
+    <pathelement location="${basedir}/lib/jdk8-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/jep-2.4.2.jar"/>
+    <pathelement location="${basedir}/lib/joda-time-1.6.2.jar"/>
+    <pathelement location="${basedir}/lib/jsonld-java-0.5.0.jar"/>
+    <pathelement location="${basedir}/lib/jsonld-java-sesame-0.5.0.jar"/>
+    <pathelement location="${basedir}/lib/jsr305-3.0.1.jar"/>
+    <pathelement location="${basedir}/lib/kie-api-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/kie-internal-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/kie-spring-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/knowledge-api-6.5.0.Final.jar"/>
+    <pathelement location="${basedir}/lib/mvel2-2.2.8.Final.jar"/>
+    <pathelement location="${basedir}/lib/org.apache.servicemix.bundles.aopalliance-1.0_6.jar"/>
+    <pathelement location="${basedir}/lib/org.apache.servicemix.bundles.javax-inject-1_2.jar"/>
+    <pathelement location="${basedir}/lib/org.osgi.core-4.3.1.jar"/>
+    <pathelement location="${basedir}/lib/owlapi-osgidistribution-4.2.7.jar"/>
+    <pathelement location="${basedir}/lib/poi-3.13.jar"/>
+    <pathelement location="${basedir}/lib/poi-ooxml-3.13.jar"/>
+    <pathelement location="${basedir}/lib/poi-ooxml-schemas-3.13.jar"/>
+    <pathelement location="${basedir}/lib/protobuf-java-2.6.0.jar"/>
+    <pathelement location="${basedir}/lib/semargl-core-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-rdf-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-rdfa-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-sesame-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/sesame-model-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-api-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-binary-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-datatypes-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-languages-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-n3-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-nquads-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-ntriples-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-rdfjson-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-rdfxml-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-trig-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-trix-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-turtle-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-util-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/slf4j-api-1.7.21.jar"/>
+    <pathelement location="${basedir}/lib/spring-aop-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/spring-beans-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/spring-context-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/spring-core-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/spring-expression-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/spring-osgi-core-1.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spring-osgi-io-1.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spring-tx-4.3.2.RELEASE.jar"/>
+    <pathelement location="${basedir}/lib/stax-api-1.0.1.jar"/>
+    <pathelement location="${basedir}/lib/swrlapi-2.0.0.jar"/>
+    <pathelement location="${basedir}/lib/swrlapi-drools-engine-2.0.0.jar"/>
+    <pathelement location="${basedir}/lib/trove4j-3.0.3.jar"/>
+    <pathelement location="${basedir}/lib/xmlbeans-2.6.0.jar"/>
+    <pathelement location="${basedir}/lib/xmlpull-1.1.3.1.jar"/>
+    <pathelement location="${basedir}/lib/xpp3_min-1.1.4c.jar"/>
+    <pathelement location="${basedir}/lib/xstream-1.4.9.jar"/>
+    <pathelement location="${basedir}/lib/xz-1.5.jar"/>
+  </path>
+  
+  <path id="library.edu.stanford.swrl:swrlapi:2.0.0.classpath">
+    <pathelement location="${basedir}/lib/aopalliance-1.0.jar"/>
+    <pathelement location="${basedir}/lib/axis-1.4_2.jar"/>
+    <pathelement location="${basedir}/lib/checker-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/checker-qual-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/commons-codec-1.9.jar"/>
+    <pathelement location="${basedir}/lib/commons-discovery-0.4_1.jar"/>
+    <pathelement location="${basedir}/lib/commons-io-2.4.jar"/>
+    <pathelement location="${basedir}/lib/commons-logging-1.2.jar"/>
+    <pathelement location="${basedir}/lib/guava-18.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-4.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-assistedinject-4.0.jar"/>
+    <pathelement location="${basedir}/lib/guice-multibindings-4.0.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.5.1.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-cache-4.5.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.4.3.jar"/>
+    <pathelement location="${basedir}/lib/jackson-annotations-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jackson-core-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jackson-databind-2.5.1.jar"/>
+    <pathelement location="${basedir}/lib/jama-1.0.3.jar"/>
+    <pathelement location="${basedir}/lib/javax.inject-1.jar"/>
+    <pathelement location="${basedir}/lib/jcl-over-slf4j-1.7.7.jar"/>
+    <pathelement location="${basedir}/lib/jdk8-1.9.13.jar"/>
+    <pathelement location="${basedir}/lib/jep-2.4.2.jar"/>
+    <pathelement location="${basedir}/lib/jsonld-java-0.5.0.jar"/>
+    <pathelement location="${basedir}/lib/jsonld-java-sesame-0.5.0.jar"/>
+    <pathelement location="${basedir}/lib/jsr305-3.0.1.jar"/>
+    <pathelement location="${basedir}/lib/org.apache.servicemix.bundles.aopalliance-1.0_6.jar"/>
+    <pathelement location="${basedir}/lib/org.apache.servicemix.bundles.javax-inject-1_2.jar"/>
+    <pathelement location="${basedir}/lib/owlapi-osgidistribution-4.2.7.jar"/>
+    <pathelement location="${basedir}/lib/semargl-core-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-rdf-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-rdfa-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/semargl-sesame-0.6.1.jar"/>
+    <pathelement location="${basedir}/lib/sesame-model-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-api-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-binary-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-datatypes-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-languages-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-n3-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-nquads-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-ntriples-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-rdfjson-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-rdfxml-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-trig-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-trix-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-rio-turtle-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/sesame-util-2.7.16.jar"/>
+    <pathelement location="${basedir}/lib/slf4j-api-1.7.21.jar"/>
+    <pathelement location="${basedir}/lib/swrlapi-2.0.0.jar"/>
+    <pathelement location="${basedir}/lib/trove4j-3.0.3.jar"/>
+    <pathelement location="${basedir}/lib/xz-1.5.jar"/>
+  </path>
+  
+  <path id="library.org.apache.commons:commons-csv:1.4.classpath">
+    <pathelement location="${basedir}/lib/commons-csv-1.4.jar"/>
+  </path>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/module_visualizationmethodschooser.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.visualizationmethodschooser" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.visualizationmethodschooser" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

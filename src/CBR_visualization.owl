@@ -1,0 +1,2835 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/masha/ontologies/2016/5/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/masha/ontologies/2016/5/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/masha/ontologies/2016/5/untitled-ontology-9"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#BubbleMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Q1_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Distributions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveRelationship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comparisons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CyclicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_CASE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Probability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_PositiveIntegerQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataSetCount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BulletGraph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TimeTable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveSameMethod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NetworkDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_DESCRIPTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChordDiagram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_Quantitative4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Q2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KagiChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hierarchy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadialBarChart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matrix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StreamGraph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParallelSets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AreaGraphDataStracture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KagiChart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TableProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Quantitative5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TreeDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpanChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Q2_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patterns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PositiveIntegerQuantitativeSetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QualityVar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PieChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReferenceTool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Q1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PopulationPyramidDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpanChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarimekkoChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MindMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TimeLine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TreeMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StackedAreaGraphDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BubbleChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadarChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConnectionMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Undirected"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BinaryQuality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dendrogram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PositiveIntegerQuantitative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniqueQuality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantitativeDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BubbleChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlowMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Concepts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadialBarChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NonribbonChordDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CBR_INDEX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AreaGraph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveGoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Quantitative1PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_PIQ2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChoroplethMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality2_PositiveIntegerQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SankeyDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proportions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProcessesOrMethods"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Quantitative2PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnyQuantitative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlowChart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiralPlot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relationships"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MoreOneSet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuantitaveVar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_PIQ1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QualityOrTimeVar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Range"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DonutChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scatterplot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViolinPlot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VennDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComparisonDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DotMap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BQ1_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_PositiveIntegerQuantitative2Quantitative1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TableColumnProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinkDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HowThingsWork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BinaryQualitySetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CandlestickChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graph"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Quantitative1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TableStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CirclePacking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LineGraph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnyQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GraphObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Q5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_PQ1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WorldCloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MovementOrFlow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PositiveQuantitativeSetOfDataType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality2_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PictogramChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HistogramDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnalysingText"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GanttDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Histogram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArcDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnySet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PositiveQuantitative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#haveCount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NightingaleRoseChartDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Q4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DensityPlot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SunburstDiagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Qn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveMethod"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataSetCount"/>
+            <Class IRI="#DataSetCount"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataStructure"/>
+            <Class IRI="#DataStructure"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveGoal"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveSameMethod"/>
+            <Class IRI="#Method"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SetOfDataType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataType"/>
+            <Class IRI="#DataType"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TableColumnProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveSetOfDataType"/>
+            <Class IRI="#SetOfDataType"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TableColumnProperty"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#haveCount"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TableProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveProperty"/>
+            <Class IRI="#TableColumnProperty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TableStructure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveProperty"/>
+            <Class IRI="#TableProperty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Cases"/>
+        <Class IRI="#CBR_CASE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cases"/>
+        <Class IRI="#CBR_DESCRIPTION"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComparisonDiagram"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataSetCount"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataStructure"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataType"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graph"/>
+        <Class IRI="#DataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GraphObject"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphics"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinkDiagram"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matrix"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Property"/>
+        <Class IRI="#CBR_INDEX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityDataType"/>
+        <Class IRI="#SimpleDataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeDataType"/>
+        <Class IRI="#SimpleDataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SetOfDataType"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableColumnProperty"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableProperty"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableStructure"/>
+        <Class IRI="#DataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeDiagram"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tree"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#AnalysingText"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDataType"/>
+        <NamedIndividual IRI="#AnyQuality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeDataType"/>
+        <NamedIndividual IRI="#AnyQuantitative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataSetCount"/>
+        <NamedIndividual IRI="#AnySet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#ArcDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#AreaGraphDataStracture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#BQ1_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDataType"/>
+        <NamedIndividual IRI="#BinaryQuality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SetOfDataType"/>
+        <NamedIndividual IRI="#BinaryQualitySetOfDataType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#BubbleChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#BubbleMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#ChordDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#ChoroplethMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#CirclePacking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Concepts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#ConnectionMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Process"/>
+        <NamedIndividual IRI="#CyclicalProcess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#Dendrogram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#DonutChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#DotMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Matrix"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Process"/>
+        <NamedIndividual IRI="#FlowChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#FlowMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDiagram"/>
+        <NamedIndividual IRI="#GanttDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Hierarchy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#Histogram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#HistogramDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#HowThingsWork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#KagiChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#KagiChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#LineGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Locations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#MarimekkoChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#MindMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataSetCount"/>
+        <NamedIndividual IRI="#MoreOneSet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#MovementOrFlow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#NetworkDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#NightingaleRoseChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#NonribbonChordDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataSetCount"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LinkDiagram"/>
+        <NamedIndividual IRI="#ParallelSets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Matrix"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#PieChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#PopulationPyramidDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SetOfDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitativeSetOfDataType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QuantitativeDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SetOfDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitativeSetOfDataType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Probability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#ProcessesOrMethods"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveIntegerQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality2_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveIntegerQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SetOfDataType"/>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SetOfDataType"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#RadarChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#RadialBarChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Range"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#ReferenceTool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goal"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Process"/>
+        <NamedIndividual IRI="#SankeyDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#SpanChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#SpanChartDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDiagram"/>
+        <NamedIndividual IRI="#SpiralPlot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableStructure"/>
+        <NamedIndividual IRI="#StackedAreaGraphDataStructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDiagram"/>
+        <NamedIndividual IRI="#StreamGraph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#SunburstDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDiagram"/>
+        <NamedIndividual IRI="#TimeLine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDiagram"/>
+        <NamedIndividual IRI="#TimeTable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#TreeDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#TreeMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tree"/>
+        <NamedIndividual IRI="#VennDiagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonDiagram"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_PIQ1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_PIQ2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_PositiveIntegerQuantitative2Quantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_Q2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_Q4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_Q5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableColumnProperty"/>
+        <NamedIndividual IRI="#_Qn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_Quantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_Quantitative1PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_Quantitative2PositiveQuantitative1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_Quantitative5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TableProperty"/>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#AreaGraphDataStracture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#LineGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#AreaGraphDataStracture"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#BQ1_"/>
+        <NamedIndividual IRI="#BinaryQualitySetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#Histogram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BarChart"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#BinaryQualitySetOfDataType"/>
+        <NamedIndividual IRI="#BinaryQuality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#SpanChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#BubbleChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#BubbleChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#BubbleChartDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative2PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#BulletGraph"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#KagiChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+        <NamedIndividual IRI="#Histogram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#PieChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#DonutChart"/>
+        <NamedIndividual IRI="#SunburstDiagram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_PositiveIntegerQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#DotMatrixChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_PositiveIntegerQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#HistogramDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#Probability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#DensityPlot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#Histogram"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#HistogramDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#HistogramDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#KagiChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#KagiChart"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#KagiChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#KagiChartDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#AnySet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#LineGraph"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#MarimekkoChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#MarimekkoChart"/>
+        <NamedIndividual IRI="#TreeMap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#MarimekkoChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#NightingaleRoseChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#PieChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#NightingaleRoseChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#NightingaleRoseChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#CandlestickChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#OpenhighlowcloseChart"/>
+        <NamedIndividual IRI="#KagiChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PictogramChart"/>
+        <NamedIndividual IRI="#DotMatrixChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#DonutChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#NightingaleRoseChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PieChart"/>
+        <NamedIndividual IRI="#SunburstDiagram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#PopulationPyramidDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#PopulationPyramid"/>
+        <NamedIndividual IRI="#Histogram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#PopulationPyramidDataStructure"/>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#PopulationPyramidDataStructure"/>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#ProportianalAreaChart"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#Q1_"/>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#Q2_"/>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#BQ1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveIntegerQuantitative1"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveIntegerQuantitative1"/>
+        <NamedIndividual IRI="#_PIQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+        <NamedIndividual IRI="#_Q2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_Q2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative4"/>
+        <NamedIndividual IRI="#Q1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality1_Quantitative4"/>
+        <NamedIndividual IRI="#_Q4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#BQ1_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2BinaryQuality1_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveIntegerQuantitative1"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveIntegerQuantitative1"/>
+        <NamedIndividual IRI="#_PIQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+        <NamedIndividual IRI="#Q2_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#Quality2_Quantitative1"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+        <NamedIndividual IRI="#AnyQuality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#QualitySetOfDataType"/>
+        <NamedIndividual IRI="#BinaryQuality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#AnyQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataType"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+        <NamedIndividual IRI="#PositiveQuantitative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#ProportianalAreaChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#RadarChart"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#RadialBarChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#RadialBarChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#RadialBarChartDataStructure"/>
+        <NamedIndividual IRI="#_Quantitative1PositiveQuantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+        <NamedIndividual IRI="#BarChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#RadialColumnChart"/>
+        <NamedIndividual IRI="#RadialBarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+        <NamedIndividual IRI="#AnySet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+        <NamedIndividual IRI="#LineGraphDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#Scatterplot"/>
+        <NamedIndividual IRI="#BubbleChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#SpanChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#CandlestickChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#SpanChart"/>
+        <NamedIndividual IRI="#GanttDiagram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#SpanChartDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#SpanChartDataStructure"/>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#AnySet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#StackedAreaGraphDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#DataOverTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#AreaGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#LineGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#StackedAreaGraph"/>
+        <NamedIndividual IRI="#StreamGraph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#StackedAreaGraphDataStructure"/>
+        <NamedIndividual IRI="#Quality1_Quantitative2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#MarimekkoChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#Comparisons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#PartToAWhole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#Relationships"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#StackedBarGraph"/>
+        <NamedIndividual IRI="#BarChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#AnySet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#DensityPlotDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#Patterns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#Range"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <NamedIndividual IRI="#ViolinPlot"/>
+        <NamedIndividual IRI="#BoxAndWhiskerPlot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+        <NamedIndividual IRI="#OnlyOneSet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+        <NamedIndividual IRI="#DonutChartDataStructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+        <NamedIndividual IRI="#AnalysingText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+        <NamedIndividual IRI="#Distributions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveGoal"/>
+        <NamedIndividual IRI="#WorldCloud"/>
+        <NamedIndividual IRI="#Proportions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_PIQ1"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_PIQ2"/>
+        <NamedIndividual IRI="#PositiveIntegerQuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_PQ1"/>
+        <NamedIndividual IRI="#PositiveQuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_PositiveIntegerQuantitative2Quantitative1"/>
+        <NamedIndividual IRI="#_PIQ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_PositiveIntegerQuantitative2Quantitative1"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_Q1"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_Q2"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_Q4"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_Q5"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <NamedIndividual IRI="#_Qn"/>
+        <NamedIndividual IRI="#QuantitativeSetOfDataType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative1"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative1PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative1PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_Q1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative2"/>
+        <NamedIndividual IRI="#_Q2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative2PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_PQ1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative2PositiveQuantitative1"/>
+        <NamedIndividual IRI="#_Q2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_Quantitative5"/>
+        <NamedIndividual IRI="#_Q5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveProperty"/>
+        <NamedIndividual IRI="#_QuantitativeN"/>
+        <NamedIndividual IRI="#_Qn"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#BQ1_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#Q1_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#Q2_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_PIQ1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_PIQ2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_PQ1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_Q1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_Q2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_Q4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_Q5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#haveCount"/>
+        <NamedIndividual IRI="#_Qn"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveDataSetCount"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataSetCount"/>
+            <Class IRI="#DataSetCount"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveDataStructure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataStructure"/>
+            <Class IRI="#DataStructure"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveDataType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveDataType"/>
+            <Class IRI="#DataType"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveGoal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveGoal"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveProperty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveProperty"/>
+            <Class IRI="#Property"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveSameMethod"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveSameMethod"/>
+            <Class IRI="#Method"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveSetOfDataType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haveSetOfDataType"/>
+            <Class IRI="#SetOfDataType"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#haveCount"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#haveCount"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Method"/>
+                <Variable IRI="#m"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#haveDataStructure"/>
+                <Variable IRI="#m"/>
+                <Variable IRI="#ds"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#haveProperty"/>
+                <Variable IRI="#ds"/>
+                <NamedIndividual IRI="#Quality2_Quantitative1"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="#m"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
